@@ -1,6 +1,6 @@
 # CrytpoTransfer
 
-Website Build to Transfer Crypto's from one account to another & displaying the latest transactions in the blockchain to the users.
+Web3 Integrated Website Build to Transfer Crypto's from one account to another & displaying the latest transactions in the blockchain to the users.
 
 # Tech Stack :
 ```-Solidity
