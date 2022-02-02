@@ -75,7 +75,7 @@ export default function Welcome() {
                 <BsInfoCircle fontSize={17} color="#fff" />
               </div>
               <div>
-                <p className="text-white font-light text-sm">{shortenAddress(currentAccount)}</p>
+                {!currentAccount ? (<p class="text-white font-light text-sm">...</p>):(<p className="text-white font-light text-sm">{shortenAddress(currentAccount)}</p>)}
 
                 <p className="text-white mt-1 text-lg font-semibold">
                   Ethereum
